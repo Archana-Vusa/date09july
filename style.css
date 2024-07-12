@@ -1,0 +1,17 @@
+.image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.list-of-users {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container > input {
+  margin: 15px auto;
+}
